@@ -11,7 +11,8 @@ const MoviesPage = () => {
     method: "GET",
     headers: {
       accept: "application/json",
-      Authorization: `Bearer ${process.env.API_KEY}`,
+      Authorization:
+        "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxNTYyOWQyOGMwMzA1ZGFhM2VmNmQyODg4MTY4OTFlMSIsIm5iZiI6MTcyMzM4OTcyNi4zOTU5MjYsInN1YiI6IjY1ZDIyZjNmZGI3MmMwMDE2MzM5NTU2ZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.lYZw31s5Q9CPb4YDnNmXGMV3CuSumcQ8dmnr2DA0Nc4",
     },
   };
 
